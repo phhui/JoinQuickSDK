@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的甜蜜恋人</string>
+    <string name="server_client_id">1099390890661</string>
+    <string name="facebook_app_id">706133140148889</string> <string name="fb_login_protocol_scheme">fb706133140148889</string>
+
+</resources>

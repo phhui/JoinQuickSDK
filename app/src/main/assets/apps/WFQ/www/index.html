@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>美女，别这样</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+         @font-face{
+             font-family:"myfont";
+             src: url("resource/assets/myfont.ttf")
+         }
+          div {
+            font-family: "myfont";
+        }
+    </style>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/chplayer/chplayer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/play.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="imgDiv" style="position: absolute;left: 0px; top: 0px; width: 100%;height:100%;">
+        <div style="position: absolute; text-align: center; display: flex; justify-content: center; flex-direction: column; align-items: center; width: 100%; height: 100%;">
+            <img src="resource/assets/tupian/chushiyedb.jpg" width = 100%; height = 100%; />
+        </div>
+        <div style="position: absolute; bottom: 10px; left: 50%;transform: translate(-50%, -50%);">
+            <font id="font" size="3" style="color: #fff;">
+                初始化中，請稍等....
+            </font>
+        </div>
+    </div>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="portrait"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="720"
+         data-content-height="1280"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="true"
+         data-show-fps-style="x:200,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <div class="video"></div>
+    <div class="videoMask"><div style="position:absolute;right:0px;bottom:0px;width:300px;text-align: right">視頻加載中。。。</div></div>
+<!--    <script src="js/CJPlatform.js" type="text/javascript" charset="utf-8"></script>-->
+    <script src="appPlugin.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/game.js" type="text/javascript" charset="utf-8"></script>
+    <script src="plus.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

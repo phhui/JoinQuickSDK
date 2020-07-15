@@ -1,0 +1,1 @@
+echo 888888|jarsigner -verbose -keystore E:/android/wfq/app/key/key.jks -signedjar E:/android/wfq/app/build/outputs/apk/release/app-release-unsigned.apk E:/www/apk/mnbzy/sign.apk key_wfq
