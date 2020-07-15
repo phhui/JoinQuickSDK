@@ -27,10 +27,10 @@ import com.quicksdk.notifier.SwitchAccountNotifier;
 import net.sf.json.JSONObject;
 
 public class QuickUtil {
-    private static String productCode="59820791825232610012748207755421";
-    private static String productKey="41349357";
-    private static String callback_Key="50993603626364661427848262755221";
-    private static String md5_Key="mc7isb5xnhu4axllx06quz86erbp7qzt";
+    private static String productCode="你的productCode";
+    private static String productKey="你的productKey";
+    private static String callback_Key="你的callback_Key";
+    private static String md5_Key="你的md5_Key";
     private static boolean autoLogin=true;//默认登录失败后自动重新登录一次
     private static Activity act;
     private static IQuickListener iql;
